@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Sungd, tzr">
+    <meta name="description" content="task1-2-1">
+    <link type="image/x-icon" href="images/favicon.ico" rel="icon">
     <link rel="stylesheet" href="css/task1-2-1.css">
     <title>Task1-2-1-孙广东@打怪升级</title>
 </head>
 <body>
-    <header id="nav">
+    <header>
         <div class="center">
-            <h1>Dota2天梯冲分攻略</h1>
-            <ul>
+            <span class="title">Dota2天梯冲分攻略</span>
+            <ul id="nav">
                 <li><a href="http://stackoverflow.com/">冲4000</a></li>
                 <li><a href="http://www.csdn.net/">冲5000</a></li>
                 <li><a href="http://www.51cto.com//">冲6000</a></li>
@@ -20,11 +23,9 @@
 
     <div id="container" class="center">
         <article>
-            <header>
-                <h1>天梯机制详解</h1><br/>
-                <h2>看完终于知道为什么我冲分这么难？</h2><br/>
-                <div class="author">呆呆流云 2016/03/14</div><br/>
-            </header>
+            <h1>天梯机制详解</h1><br/>
+            <h2>看完终于知道为什么我冲分这么难？</h2><br/>
+            <div class="author">呆呆流云 2016/03/14</div><br/>
 
             <div class="content">
                 <p><b><a href="http://www.dota2.com.cn/event/201312/matching/explain.htm">天梯</a>就是个大坑</b>，<i>脸都被冲歪了</i>。</p>
@@ -39,11 +40,9 @@
 
 
         <article>
-            <header>
-                <h1>如何冲分</h1><br/>
-                <h2>教你一个月成为7000大神</h2><br/>
-                <div class="author">呆呆流云 2016/03/16</div><br/>
-            </header>
+            <h1>如何冲分</h1><br/>
+            <h2>教你一个月成为7000大神</h2><br/>
+            <div class="author">呆呆流云 2016/03/16</div><br/>
 
             <div class="content">
                 <p>这是个很长的故事，这是个很长的故事，这是个很长的故事，这是个很长的故事，这是个很长的故事，这是个很长的故事，这是个很长的故事，这是个很长的故事，<br/>
@@ -63,26 +62,24 @@
             <div id="image_list">
                 <div class="image">
                     <div class="image_info">dota2英雄</div>
-                    <img src="images/img1.jpg">
+                    <img src="images/img1.jpg" title="hero" alt="Dota2英雄">
                 </div>
                 <div class="image">
                     <div class="image_info">dota2英雄</div>
-                    <img src="images/img1.jpg">
+                    <img src="images/img1.jpg" title="hero" alt="Dota2英雄">
                 </div>
                 <div class="image">
                     <div class="image_info">dota2英雄</div>
-                    <img src="images/img1.jpg">
+                    <img src="images/img1.jpg" title="hero" alt="Dota2英雄">
                 </div>
             </div>
         </article>
 
 
         <article>
-            <header>
-                <h1>Dota2心得</h1><br/>
-                <h2>打的好不如排的好，还是好好Coding吧</h2><br/>
-                <div class="author">呆呆流云 2016/03/18</div><br/>
-            </header>
+            <h1>Dota2心得</h1><br/>
+            <h2>打的好不如排的好，还是好好Coding吧</h2><br/>
+            <div class="author">呆呆流云 2016/03/18</div><br/>
 
             <h3>天梯排行榜</h3><br/>
             <ol id="location">
@@ -170,10 +167,10 @@
                 <div class="form">
                     <div class="left" id="self_intro">个人描述</div>
                     <div class="right">
-                        <textarea id="self_text" name="personal">请输入你的个人描述</textarea>
+                        <textarea cols="40" rows="5" name="title" title="describe" wrap="hard">请输入你的个人描述</textarea>
                     </div>
                 </div>
-                <input class="submit" type="submit" value="确认提交" /><br/><br/>
+                <input id="submit" type="submit" value="确认提交" /><br/><br/>
             </form>
         </article>
     </div>

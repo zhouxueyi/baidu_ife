@@ -3,16 +3,11 @@
     margin: 0;
 }
 
-header, section, article {
-    display: block;
-}
-
 body {
     color: #000;
     font-size: 14px;
     background-color: rgb(214,214,214);
     font-family: "Microsoft YaHei UI", sans-serif;
-
 }
 
 .center {
@@ -20,58 +15,55 @@ body {
     margin: 0 auto;
 }
 
-#nav {
+header {
     width: 100%;
     height: 60px;
     background-color: rgb(38,38,38);
     color: #FFF;
 }
 
-#nav h1 {
-    float: left;
+span.title {
+    font-size: 24px;
     line-height: 60px;
     vertical-align: middle;
 }
 
-#nav ul{
+#nav {
     float: right;
+    line-height: 60px;
 }
 
 #nav li {
-    line-height: 60px;
     vertical-align: middle;
     display: inline-block;
+    margin-left: 10px;
 }
 
 #nav a {
     color: #FFF;
-    font-size: 14px;
-    margin-left: 10px;
     text-decoration: none;
 }
 
-#nav li :hover {
+#nav a:hover {
     color: rgb(214,214,214);
+    text-decoration: underline;
 }
 
 #container {
     margin-top: 20px;
 }
 
-#container article {
+article {
     background-color: #FFF;
     padding: 20px 10px;
-    margin-bottom: 20px;
-
+    margin: 20px 0;
+    word-break: nomal;
 }
 
 .content p {
     line-height: 2em;
     text-indent: 2em;
-    word-spacing: 1em;
-    /*letter-spacing: 1em;*/
 }
-/*word-spacing对中文无效*/
 
 #go_page {
     list-style-type: none;
@@ -112,6 +104,10 @@ body {
     padding: 4px;
 }
 
+#player_order {
+    width: 100%;
+    border-collapse: collapse;
+}
 
 #player_order th, #player_order td {
     border: 1px solid rgb(190,190,190);
@@ -126,11 +122,6 @@ body {
 
 #player_order tr.alt td {
     background-color: rgb(190,190,190);
-}
-
-#player_order {
-    width: 100%;
-    border-collapse: collapse;
 }
 
 .sidebar_title {
@@ -162,12 +153,8 @@ div.form {
 .form #self_intro {
     vertical-align: top;
 }
-.form #self_text {
-    width: 100%;
-    height: 80px;
-}
 
-#register .submit {
+#submit {
     width: 100%;
     height: 40px;
     border-radius: 10px;
@@ -181,7 +168,6 @@ footer {
     width: 100%;
     height: 80px;
     line-height: 80px;
-    vertical-align: middle;
     color: #FFF;
     text-align: center;
     background-color: rgb(38,38,38);
